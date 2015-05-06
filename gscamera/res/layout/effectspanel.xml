@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/paneleffects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:orientation="horizontal" >
+
+        <ToggleButton
+            android:id="@+id/buteffect_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:textOff="Red"
+            android:textOn="Red" 
+            />
+
+        <ToggleButton
+            android:id="@+id/buteffect_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            android:textOff="Blue"
+            android:textOn="Blue" />
+
+        <ToggleButton
+            android:id="@+id/buteffect_negative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Negative"
+            android:textOff="Negative"
+            android:textOn="Negative" />
+        
+        <ToggleButton
+            android:id="@+id/buteffect_orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orange"
+            android:textOff="Orange"
+            android:textOn="Orange" />
+
+        <ToggleButton
+            android:id="@+id/buteffect_none"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:textOff="None"
+            android:textOn="None"
+            android:checked="true" />
+
+    
+
+</LinearLayout>
